@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Meyers-reset.css">
+    {% comment %} <link rel="stylesheet" href="/Meyers-reset.css"> {% endcomment %}
     <link rel="stylesheet" href="styles.css">
-    <title>Angelika Blackburn's Web Dev Portfolio</title>
+    <title>A collection of ladies who seem cool.</title>
 </head>
 <body>
     <header>
-        <h1>Angelika Blackburn</h1>
+        <h1>Angelika Blackburn's</h1>
         <nav>
             <div class="header-links">
                 <a href="/index.html">Home</a>
@@ -18,9 +18,10 @@
                 <a href="/projects.html">Projects</a>
             </div>
         </nav>
-        <div class="opening"><p>One day these will be projects I've completed, but for now they're just some random images from Pexel. Thanks Pexel. You're awesome.</p>
-        <p>One day these will be projects I've completed, but for now they're just some random images from Pexel. Thanks Pexel. You're awesome.</p>
-        <p>One day these will be projects I've completed, but for now they're just some random images from Pexel. Thanks Pexel. You're awesome.</p></div>
+        <h2>Collection of Interesting Woman I Found on the Internet</h2>
+        <div><p>One day these will be projects I've completed, but for now they're just some random images from Pexel. One day these will be projects I've completed, but for now they're just some random images from Pexel.</p>
+        <p>Thanks Pexel. You're awesome. And more text here to flesh out a website. Thanks Pexel. You're awesome. And more text here to flesh out a website. </p>
+        <p class="opening">Some descriptions and stuff. Some descriptions and stuff.</p></div>
     </header>
 
     <section class="hero-image" aria-label="Glowing paper lanterns at night">
@@ -28,29 +29,33 @@
 
     <section class="projects">
             <!--This is the beginning of the individual projects-->
-        <div>
-            <p>P1</p>
-            <img src="" alt="First Project"/>
-        </div>
-        <div>
-            <p>P1</p>
-            <img src="" alt="First Project"/>
-        </div>
-        <div>
-            <p>P1</p>
-            <img src="" alt="First Project"/></div>
-        <div>
-            <p>P1</p>
-            <img src="" alt="First Project"/>
-        </div>
+            <div class="proj-img">
+                <h3>This lady seems like she'd be a fun friend.</h3>
+                <div class="p" id="p1" aria-label="First Project Description"></div>
+            </div>
+
+            <div class="proj-img">
+                <h3>This lady looks like she could use a friend.</h3>
+                <div class="p" id="p2" aria-label="Second Project Description"></div>
+            </div>
+
+            <div class="proj-img">
+                <h3>This lady looks like what I imagine my grandmother was like in Mexico.</h3>
+                <div class="p" id="p3" aria-label="Third Project Description">
+            </div>
+            
+            <div class="proj-img">
+                <h3>I spend a lot of money to feed and take care of this little lady, so she has no choice but to by my friend.</h3>
+                <div class="p" id="p4" aria-label="Fourth Project Description"></div>
+            </div>
     <!--This is the end of the individual projects-->
-        <div>This is the text running down the side.</div>
+        <div class="proj-img" id="gallery-description"><p>This is the text running down the side.</p></div>
     </section>
 
     <footer>
         <nav class="social-media">
-            <a href="">Contact</a>
-            <a href="">LinkedIn</a>
+            <button>Contact</button>
+            <button>LinkedIn</button>
         </nav>
         <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
     </footer>
