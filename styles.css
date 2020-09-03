@@ -116,7 +116,7 @@ section.projects {
 
 }
 
-div.p {
+div.proj-img {
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
@@ -141,16 +141,15 @@ div.p {
     background-image:url(/assets/20200130_171638.jpg);
 }
 
-div.proj-img {
+div.proj-container {
     display: flex;
     flex-direction: column;
     align-content: space-around;
     align-items: baseline;
     margin: 3% 0;
-
 }
 
-div.proj-img:hover {
+div.proj-container:hover {
     background: pink;
 }
 
