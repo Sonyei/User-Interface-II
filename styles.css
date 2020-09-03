@@ -1,0 +1,29 @@
+body {
+    max-width: 100%;
+    background: rgb(29, 28, 28);
+    color: white;
+}
+
+header {
+    display: flex;
+}
+
+nav a {
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 3rem;
+    text-decoration: none;
+    background: pink;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.hero-image {
+    background-image:url(/assets/pexels-photo-3748174.jpeg);
+    background-attachment: fixed;
+    background-position: bottom;
+    width: 100%;
+    height: 80vh;
+}
