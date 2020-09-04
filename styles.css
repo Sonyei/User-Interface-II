@@ -25,9 +25,9 @@ a {
 a:hover, a:focus {
     text-decoration: none;
     cursor: pointer;
-    color: #c0c0c0;
+    color: #ff9c3e;
     outline: none;
-    box-shadow: 0px 6px 5px -5px #e4e4e4;
+    box-shadow: 0px 6px 5px -5px #ffec3e9c;
 }
 
 div {
@@ -103,6 +103,10 @@ button{
     border-radius: 5px;
 }
 
+li {
+    list-style: none;
+}
+
 /*Images*/
 
 .hero-image {
@@ -117,7 +121,7 @@ button{
 
 section.projects {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     width: 100%;
     margin: 2% 0;
 }
@@ -130,19 +134,19 @@ div.proj-img {
 }
 
 #p1 {
-    background-image:url(/assets/pexels-photo-1738998.jpeg);
+    background-image:url(/assets/pexels-photo-2229483.jpeg);
 }
 
 #p2 {
-    background-image:url(/assets/pexels-photo-2269860.jpeg);
+    background-image:url(/assets/pexels-photo-3052651.jpeg);
 }
 
 #p3 {
-    background-image:url(/assets/pexels-photo-2348310.jpeg);
+    background-image:url(/assets/pexels-photo-3185323.jpeg);
 }
 
 #p4 {
-    background-image:url(/assets/20200130_171638.jpg);
+    background-image:url(/assets/space-shuttle-atlantis-liftoff-mission-rocket-39698.jpeg);
 }
 
 div.proj-container {
@@ -159,18 +163,51 @@ div.proj-container a{
     margin: 4%;
 }
 
+p.byline {
+    margin-bottom: 10%;
+}
 /*Footer*/
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin-top: 1%;
     background: #3a3939;
 }
 
-.social-media a {
+.contact {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 1% 35% 2%;
     color: #e2e2e2;
     border-radius: 5px;
 }
 
+.contact a {
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin: 0 40%;
+    padding: 0;
+}
+
+.social-icon {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    width: 10%;
+}
+
+.disclaimer {
+    margin-top: 2%;
+}
+
+.disclaimer a{
+    font-size: 2rem;
+}
