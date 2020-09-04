@@ -59,27 +59,25 @@ header nav a {
 
 /*Titles and paragraphs*/
 
-h1 {
+h1, h2, h3 {
     width: 100%;
-    font-size: 4rem;
     font-family: 'Gayathri', sans-serif;
-    margin-top: 5%;
     text-align: center;
 }
 
+h1 {
+    font-size: 4rem;
+    margin-top: 5%; 
+}
+
 h2 {
-    width: 100%;
     font-size: 2.8rem;
-    font-family: 'Gayathri', sans-serif;
-    text-align: center;
     letter-spacing: 4px;
     margin-bottom: 2%;
 }
 
 h3 {
     font-size: 2rem;
-    font-family: 'Gayathri', sans-serif;
-    text-align: center;
     margin: 2%;
 }
 
@@ -108,12 +106,9 @@ p.opening {
 
 section.projects {
     display: flex;
-    justify-content: space-around;
-    /* width: 40%; */
+    justify-content: flex-start;
+    width: 100%;
     margin: 2% 0;
-    background: green;
-
-
 }
 
 div.proj-img {
@@ -121,8 +116,6 @@ div.proj-img {
     background-repeat: no-repeat;
     height: 80vh;
     margin: 0 auto;
-
-
 }
 
 #p1 {
@@ -144,13 +137,11 @@ div.proj-img {
 div.proj-container {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
-    align-items: baseline;
-    margin: 3% 0;
+    margin: 3% 1%;
 }
 
-div.proj-container:hover {
-    background: pink;
+#gallery-description {
+    align-self: center;
 }
 
 /*Footer*/
