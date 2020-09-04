@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    color: #808080;
+    color: #a7a7a7;
     text-decoration: none;
     font-size: 2.5rem;
     text-align: center;
@@ -38,7 +38,7 @@ div {
 nav {
     display: flex;
     justify-content: space-around;
-    margin: 2% 20%;
+    margin: 1% 20% 3%;
     
 }
 
