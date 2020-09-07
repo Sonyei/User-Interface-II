@@ -214,8 +214,33 @@ footer {
 
 /*Media queries*/
 
+
+
+/*800 px breakpoint*/
+
+@media (max-width: 800px) {
+    div.header-links {
+        display: flex;
+        flex-direction: column;
+    }
+    section.projects {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    div.proj-container {
+        display: flex;
+        width: 48%;
+        margin: 1% 1%;
+    }
+}
+
+
+/*500 px breakpoint*/
+
 @media (max-width: 500px) {
     body {
-        background: pink;
+        background: darkblue;
     }
 }
