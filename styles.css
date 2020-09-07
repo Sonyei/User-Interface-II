@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&family=Playfair+Display&display=swap');
+
+
 /*General styles*/
 * {
     box-sizing: border-box;
@@ -34,12 +36,13 @@ div {
     width: 100%;
 }
 
+
 /*Navigation setup*/
+
 nav {
     display: flex;
     justify-content: space-around;
-    margin: 1% 20% 3%;
-    
+    margin: 1% 10% 3%;
 }
 
 div.header-links {
@@ -58,6 +61,7 @@ header nav a {
     border-radius: 5px;
     font-size: 3rem;
 }
+
 
 /*Titles and paragraphs*/
 
@@ -107,6 +111,7 @@ li {
     list-style: none;
 }
 
+
 /*Images*/
 
 .hero-image {
@@ -116,6 +121,7 @@ li {
     width: 100%;
     height: 53vh;
 }
+
 
 /*Projects Gallery*/
 
@@ -166,6 +172,8 @@ div.proj-container a{
 p.byline {
     margin-bottom: 10%;
 }
+
+
 /*Footer*/
 
 footer {
@@ -212,34 +220,58 @@ footer {
     font-size: 2rem;
 }
 
+
 /*Media queries*/
 
 
+@media (max-width: 1145px) {
+    div.header-links a {
+        padding: 0 2%;
+    }
+}
 
 /*800 px breakpoint*/
 
 @media (max-width: 800px) {
+
     div.header-links {
         display: flex;
         flex-direction: column;
     }
+
     section.projects {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         width: 100%;
     }
+
     div.proj-container {
         display: flex;
         width: 48%;
         margin: 1% 1%;
     }
+
+    #gallery-description {
+        width: 100%;
+    }
+
+    p.byline {
+        margin-bottom: 3%;
+    }
+
+    .socials {
+        width: 50%;
+        margin: 0 auto;
+    }
+
 }
 
 
 /*500 px breakpoint*/
 
 @media (max-width: 500px) {
+
     body {
         background: darkblue;
     }
