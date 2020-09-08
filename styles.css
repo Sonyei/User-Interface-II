@@ -22,17 +22,20 @@ a {
     text-decoration: none;
     font-size: 2.5rem;
     text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
 }
 
 a:hover, a:focus {
     text-decoration: none;
     cursor: pointer;
-    color: #ff9c3e;
+    color: #ff912a;
     outline: none;
     text-align: center;
-    border-radius: 4px;
-    box-shadow: 0 0 0 2px #ffec3e9c;
-    background: #ffec3e2f;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #ff1c60, #ffff00,rgba(0, 0, 0, 0)) 0 0 100%;
 }
 
 div {
@@ -72,6 +75,7 @@ h1, h2, h3, button {
     width: 100%;
     font-family: 'Gayathri', sans-serif;
     text-align: center;
+    color: rgb(255, 28, 96);
 }
 
 h1 {
@@ -140,6 +144,10 @@ div.proj-img {
     background-repeat: no-repeat;
     height: 80vh;
     margin: 0 auto;
+    padding: 2%;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #ff1c60, #ffff00,rgba(0, 0, 0, 0)) 4 100%;
 }
 
 #p1 {
@@ -268,18 +276,8 @@ footer {
     }
 
     .socials {
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
-    }
-
-    a:hover, a:focus {
-    text-decoration: none;
-    cursor: pointer;
-    color: #ff9c3e;
-    outline: none;
-    text-align: center;
-    border-radius: 4px;
-    box-shadow: 0 0 0 2px #ffec3e9c;
     }
 }
 
@@ -288,7 +286,9 @@ footer {
 
 @media (max-width: 500px) {
 
-       div.intro {
-           text-align: center;
+    .socials {
+        width: 75%;
+        margin: 0 auto;
     }
+
 }
