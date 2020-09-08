@@ -203,8 +203,8 @@ footer {
 .socials {
     display: flex;
     justify-content: space-around;
-    width: 20%;
-    margin: 0 40%;
+    width: 30%;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -226,10 +226,6 @@ footer {
 
 /*Media queries*/
 
-
-@media (max-width: 1670) {
-
-}
 
 @media (max-width: 1145px) {
     div.header-links a {
